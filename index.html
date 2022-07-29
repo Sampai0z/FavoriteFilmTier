@@ -10,21 +10,14 @@
   </head>
   <body>
     <div id="backdrop"></div>
-    <div class="modal" id="add-modal">
+    <div class="modal" id="add-modal"> <!-- Content hide/block -->
       <div class="modal__content">
         <label for="title">Movie Title</label>
-        <input type="text" name="title" id="title" />
+        <input type="text" name="title" id="title" /> <!-- idex [0] -->
         <label for="image-url">Image URL</label>
-        <input type="text" name="image-url" id="image-url" />
+        <input type="text" name="image-url" id="image-url" /> <!-- idex [1] -->
         <label for="rating">Your Rating</label>
-        <input
-          type="number"
-          step="1"
-          max="5"
-          min="1"
-          name="rating"
-          id="rating"
-        />
+        <input type="number" step="1" max="5" min="1" name="rating" id="rating"/> <!-- idex [2] -->
       </div>
       <div class="modal__actions">
         <button class="btn btn--passive">Cancel</button>
